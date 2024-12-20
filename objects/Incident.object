@@ -130,6 +130,16 @@
     <enableFeeds>false</enableFeeds>
     <externalSharingModel>Private</externalSharingModel>
     <fields>
+        <fullName>AssignedGroupId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>AssignedUserId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
         <fullName>BusinessHoursId</fullName>
         <trackHistory>false</trackHistory>
         <type>Lookup</type>
@@ -196,9 +206,18 @@
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
+        <fullName>ReportedById</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
         <fullName>ReportedMethod</fullName>
         <trackHistory>false</trackHistory>
         <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>ReportedMethodIdentifier</fullName>
+        <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>ResolutionDateTime</fullName>
@@ -257,21 +276,29 @@
         <type>Picklist</type>
     </fields>
     <listViews>
-        <fullName>AllIncidentsDefault</fullName>
+        <fullName>AllIncidentsIncidentAlertsDefault</fullName>
         <columns>Name</columns>
         <columns>Subject</columns>
         <columns>Description</columns>
         <columns>Status</columns>
         <filterScope>Everything</filterScope>
-        <label>All Incidents (Default)</label>
+        <label>All Incidents (Incident Alerts Default)</label>
     </listViews>
     <searchLayouts>
         <customTabListAdditionalFields>Subject</customTabListAdditionalFields>
-        <customTabListAdditionalFields>Status</customTabListAdditionalFields>
+        <customTabListAdditionalFields>ReportedBy</customTabListAdditionalFields>
         <customTabListAdditionalFields>Priority</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Status</customTabListAdditionalFields>
+        <customTabListAdditionalFields>AssignedUser</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Category</customTabListAdditionalFields>
+        <customTabListAdditionalFields>SubCategory</customTabListAdditionalFields>
         <searchResultsAdditionalFields>Subject</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>Status</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>ReportedBy</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>Priority</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Status</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>AssignedUser</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Category</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>SubCategory</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>Private</sharingModel>
 </CustomObject>

@@ -181,7 +181,19 @@
     <tabs>standard-Case</tabs>
     <tabs>standard-Opportunity</tabs>
     <tabs>standard-Lead</tabs>
+    <tabs>SaiAPI56Obj1__c</tabs>
+    <tabs>TestClone__c</tabs>
+    <tabs>EXTest__c</tabs>
     <workspaceConfig>
+        <mappings>
+            <tab>EXTest__c</tab>
+        </mappings>
+        <mappings>
+            <tab>SaiAPI56Obj1__c</tab>
+        </mappings>
+        <mappings>
+            <tab>TestClone__c</tab>
+        </mappings>
         <mappings>
             <tab>standard-Account</tab>
         </mappings>

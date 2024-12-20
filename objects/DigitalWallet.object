@@ -123,6 +123,9 @@
         <fullName>AuditEmail</fullName>
     </fields>
     <fields>
+        <fullName>BillingName</fullName>
+    </fields>
+    <fields>
         <fullName>Comments</fullName>
     </fields>
     <fields>
@@ -176,6 +179,9 @@
     </fields>
     <fields>
         <fullName>Status</fullName>
+    </fields>
+    <fields>
+        <fullName>Type</fullName>
     </fields>
     <listViews>
         <fullName>DigitalWallet</fullName>

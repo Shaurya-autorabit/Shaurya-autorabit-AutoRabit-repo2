@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>TestClone</value>
+    </caseValues>
+    <fields>
+        <label></label>
+        <name>AutoID__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>AutoRabitExtrnalID__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>AutorabitExtId__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>eadd__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>sname__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

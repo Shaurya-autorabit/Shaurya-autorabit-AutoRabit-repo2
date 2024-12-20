@@ -11,8 +11,20 @@
     <tabs>standard-CmsChannel</tabs>
     <tabs>standard-CmsWorkspaces</tabs>
     <tabs>standard-CmsExperiences</tabs>
+    <tabs>SaiAPI56Obj1__c</tabs>
+    <tabs>TestClone__c</tabs>
+    <tabs>EXTest__c</tabs>
     <uiType>Lightning</uiType>
     <workspaceConfig>
+        <mappings>
+            <tab>EXTest__c</tab>
+        </mappings>
+        <mappings>
+            <tab>SaiAPI56Obj1__c</tab>
+        </mappings>
+        <mappings>
+            <tab>TestClone__c</tab>
+        </mappings>
         <mappings>
             <tab>standard-CmsAuthorHome</tab>
         </mappings>

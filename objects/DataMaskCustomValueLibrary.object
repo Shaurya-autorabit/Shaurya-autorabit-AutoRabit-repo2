@@ -147,7 +147,7 @@
     <listViews>
         <fullName>All_DataMaskCustomValueLibraries</fullName>
         <filterScope>Everything</filterScope>
-        <label>All Custom Libraries</label>
+        <label>All Data Mask Custom Value Libraries</label>
     </listViews>
     <searchLayouts>
         <customTabListAdditionalFields>Description</customTabListAdditionalFields>

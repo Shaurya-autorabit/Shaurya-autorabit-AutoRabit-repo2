@@ -256,11 +256,6 @@
         <type>Lookup</type>
     </fields>
     <fields>
-        <fullName>ServiceTerritoryId</fullName>
-        <trackHistory>false</trackHistory>
-        <type>Lookup</type>
-    </fields>
-    <fields>
         <fullName>SlaExitDate</fullName>
         <trackHistory>false</trackHistory>
     </fields>
@@ -300,11 +295,6 @@
     <fields>
         <fullName>TotalPrice</fullName>
         <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>WorkTypeId</fullName>
-        <trackHistory>false</trackHistory>
-        <type>Lookup</type>
     </fields>
     <listViews>
         <fullName>All_WorkOrders</fullName>

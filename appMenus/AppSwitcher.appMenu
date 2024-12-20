@@ -25,6 +25,10 @@
         <type>CustomApplication</type>
     </appMenuItems>
     <appMenuItems>
+        <name>standard__Work</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
+    <appMenuItems>
         <name>standard__Community</name>
         <type>CustomApplication</type>
     </appMenuItems>
@@ -41,11 +45,7 @@
         <type>CustomApplication</type>
     </appMenuItems>
     <appMenuItems>
-        <name>standard__Insights</name>
-        <type>CustomApplication</type>
-    </appMenuItems>
-    <appMenuItems>
-        <name>standard__LightningSalesConsole</name>
+        <name>standard__LightningSales</name>
         <type>CustomApplication</type>
     </appMenuItems>
     <appMenuItems>
@@ -53,7 +53,11 @@
         <type>CustomApplication</type>
     </appMenuItems>
     <appMenuItems>
-        <name>standard__LightningSales</name>
+        <name>standard__LightningSalesConsole</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>standard__Insights</name>
         <type>CustomApplication</type>
     </appMenuItems>
     <appMenuItems>
@@ -61,19 +65,19 @@
         <type>CustomApplication</type>
     </appMenuItems>
     <appMenuItems>
-        <name>standard__SalesforceCMS</name>
-        <type>CustomApplication</type>
-    </appMenuItems>
-    <appMenuItems>
         <name>standard__AllTabSet</name>
         <type>CustomApplication</type>
     </appMenuItems>
     <appMenuItems>
-        <name>standard__QueueManagement</name>
+        <name>CPQIntegrationUserApp</name>
+        <type>ConnectedApp</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>standard__SalesforceCMS</name>
         <type>CustomApplication</type>
     </appMenuItems>
     <appMenuItems>
-        <name>standard__LightningScheduler</name>
+        <name>standard__DataManager</name>
         <type>CustomApplication</type>
     </appMenuItems>
     <appMenuItems>
@@ -81,8 +85,16 @@
         <type>CustomApplication</type>
     </appMenuItems>
     <appMenuItems>
-        <name>standard__DataManager</name>
-        <type>CustomApplication</type>
+        <name>API53TEST</name>
+        <type>Network</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>AudienceTEST</name>
+        <type>Network</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>DEVHUB_7yogz7w9yz53wq2pbcay</name>
+        <type>ConnectedApp</type>
     </appMenuItems>
     <appMenuItems>
         <name>Dataloader_Bulk</name>
@@ -117,7 +129,51 @@
         <type>ConnectedApp</type>
     </appMenuItems>
     <appMenuItems>
-        <name>standard__FlowsApp</name>
+        <name>API_56_TESTING</name>
+        <type>ConnectedApp</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>Shiva</name>
+        <type>Network</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>ARVault</name>
+        <type>ConnectedApp</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>AutoRABITQA</name>
+        <type>ConnectedApp</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>AutoRABIT</name>
+        <type>ConnectedApp</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>Salesforce_CLI</name>
+        <type>ConnectedApp</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>AutoRABIT1020</name>
+        <type>ConnectedApp</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>AutoRABITOAuth2</name>
+        <type>ConnectedApp</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>Sampath_Test</name>
+        <type>ExternalClientApplication</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>standard__Approvals</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>standard__DataGovernanceConsole</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>standard__MSJApp</name>
         <type>CustomApplication</type>
     </appMenuItems>
 </AppMenu>

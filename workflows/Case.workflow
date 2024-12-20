@@ -10,4 +10,22 @@
         <protected>false</protected>
         <reevaluateOnChange>false</reevaluateOnChange>
     </fieldUpdates>
+    <fieldUpdates>
+        <fullName>fu1</fullName>
+        <field>Type</field>
+        <name>fu1</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>PreviousValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>fu2</fullName>
+        <field>Type</field>
+        <name>fu2</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>PreviousValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
 </Workflow>

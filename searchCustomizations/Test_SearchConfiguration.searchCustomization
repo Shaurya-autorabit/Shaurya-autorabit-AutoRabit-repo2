@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SearchCustomization xmlns="http://soap.sforce.com/2006/04/metadata">
+    <channel>GlobalSearch</channel>
+    <masterLabel>Test_SearchConfiguration</masterLabel>
+    <objectOverride>
+        <objectApiName>Account</objectApiName>
+        <rule>
+            <fieldApiName>OwnerId</fieldApiName>
+            <operator>eq</operator>
+            <ruleValue>
+                <targetObjectApiName>User</targetObjectApiName>
+                <value>shiva@00db0000000kharmas.org.force.com</value>
+            </ruleValue>
+        </rule>
+    </objectOverride>
+    <objectToAlwaysSearch>Account</objectToAlwaysSearch>
+    <profile>adminpsl6</profile>
+</SearchCustomization>

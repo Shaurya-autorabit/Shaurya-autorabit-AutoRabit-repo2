@@ -2014,14 +2014,6 @@
             </states>
             <states>
                 <active>true</active>
-                <integrationValue>Telangana</integrationValue>
-                <isoCode>TG</isoCode>
-                <label>Telangana</label>
-                <standard>true</standard>
-                <visible>true</visible>
-            </states>
-            <states>
-                <active>true</active>
                 <integrationValue>Tamil Nadu</integrationValue>
                 <isoCode>TN</isoCode>
                 <label>Tamil Nadu</label>
@@ -4865,9 +4857,9 @@
         </countries>
         <countries>
             <active>true</active>
-            <integrationValue>Vietnam</integrationValue>
+            <integrationValue>Viet Nam</integrationValue>
             <isoCode>VN</isoCode>
-            <label>Vietnam</label>
+            <label>Viet Nam</label>
             <orgDefault>false</orgDefault>
             <standard>true</standard>
             <visible>true</visible>

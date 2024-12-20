@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ForecastingFilter xmlns="http://soap.sforce.com/2006/04/metadata">
+    <filterLogic>1</filterLogic>
+    <forecastingType>Oppty_Revenue</forecastingType>
+    <forecastingTypeSource>FTS_Oppty_Revenue7syB0000000PBUaIAO503057834205526</forecastingTypeSource>
+    <isProtected>false</isProtected>
+    <masterLabel>FF_Oppty_Revenue0hlB0000000PAuYIAW806415679861446</masterLabel>
+</ForecastingFilter>

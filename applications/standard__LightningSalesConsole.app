@@ -21,9 +21,22 @@
     <tabs>standard-Feed</tabs>
     <tabs>standard-CollaborationGroup</tabs>
     <tabs>standard-File</tabs>
+    <tabs>standard-WaveHomeLightning</tabs>
+    <tabs>SaiAPI56Obj1__c</tabs>
+    <tabs>TestClone__c</tabs>
+    <tabs>EXTest__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>LightningSalesConsole_UtilityBar</utilityBar>
     <workspaceConfig>
+        <mappings>
+            <tab>EXTest__c</tab>
+        </mappings>
+        <mappings>
+            <tab>SaiAPI56Obj1__c</tab>
+        </mappings>
+        <mappings>
+            <tab>TestClone__c</tab>
+        </mappings>
         <mappings>
             <tab>standard-Account</tab>
         </mappings>
@@ -56,6 +69,9 @@
         </mappings>
         <mappings>
             <tab>standard-Task</tab>
+        </mappings>
+        <mappings>
+            <tab>standard-WaveHomeLightning</tab>
         </mappings>
         <mappings>
             <tab>standard-home</tab>

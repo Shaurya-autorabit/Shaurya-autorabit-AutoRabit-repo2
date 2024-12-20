@@ -11,4 +11,7 @@
     <tabs>standard-OtherUserProfile</tabs>
     <tabs>standard-CollaborationGroup</tabs>
     <tabs>standard-File</tabs>
+    <tabs>SaiAPI56Obj1__c</tabs>
+    <tabs>TestClone__c</tabs>
+    <tabs>EXTest__c</tabs>
 </CustomApplication>

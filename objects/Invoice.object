@@ -116,6 +116,18 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>CorpCrcyCnvTotAmtWithTax</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>CorporateCurrencyCvsnDate</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>CorporateCurrencyCvsnRate</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
         <fullName>Description</fullName>
         <trackHistory>false</trackHistory>
     </fields>
@@ -153,12 +165,24 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>PaymentExclusionReason</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
         <fullName>ReferenceEntityId</fullName>
         <trackHistory>false</trackHistory>
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>ShouldExcludePayment</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
         <fullName>Status</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>TaxLocaleType</fullName>
         <trackHistory>false</trackHistory>
     </fields>
     <fields>

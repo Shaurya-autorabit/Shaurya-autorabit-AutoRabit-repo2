@@ -29,20 +29,6 @@
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
-        <actionName>Delete</actionName>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
-        <actionName>Delete</actionName>
-        <formFactor>Large</formFactor>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
-        <actionName>Delete</actionName>
-        <formFactor>Small</formFactor>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
         <actionName>Edit</actionName>
         <type>Default</type>
     </actionOverrides>
@@ -130,6 +116,16 @@
     <enableFeeds>false</enableFeeds>
     <externalSharingModel>Private</externalSharingModel>
     <fields>
+        <fullName>AssignedGroupId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>AssignedUserId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
         <fullName>BusinessJustification</fullName>
         <trackHistory>false</trackHistory>
     </fields>
@@ -145,6 +141,18 @@
     </fields>
     <fields>
         <fullName>ChangeType</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>ClosedStatusCode</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>ClosedStatusComments</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>CompletionDate</fullName>
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
@@ -173,6 +181,10 @@
         <type>Picklist</type>
     </fields>
     <fields>
+        <fullName>ImplementationPlan</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
         <fullName>OwnerId</fullName>
         <trackHistory>false</trackHistory>
         <type>Lookup</type>
@@ -185,6 +197,11 @@
     <fields>
         <fullName>RemediationPlan</fullName>
         <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>RequestedById</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
     </fields>
     <fields>
         <fullName>ReviewerId</fullName>
@@ -209,16 +226,51 @@
         <fullName>StatusCode</fullName>
     </fields>
     <fields>
+        <fullName>SubCategory</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
         <fullName>Subject</fullName>
         <trackHistory>false</trackHistory>
     </fields>
+    <fields>
+        <fullName>TestPlan</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Urgency</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+    </fields>
+    <listViews>
+        <fullName>AllChangeRequestsDefault</fullName>
+        <columns>Name</columns>
+        <columns>Subject</columns>
+        <columns>Status</columns>
+        <columns>Priority</columns>
+        <columns>AssignedUser</columns>
+        <columns>ChangeType</columns>
+        <columns>RiskLevel</columns>
+        <columns>Impact</columns>
+        <filterScope>Everything</filterScope>
+        <label>All Change Requests (Default)</label>
+    </listViews>
     <searchLayouts>
         <customTabListAdditionalFields>Subject</customTabListAdditionalFields>
         <customTabListAdditionalFields>Status</customTabListAdditionalFields>
         <customTabListAdditionalFields>Priority</customTabListAdditionalFields>
+        <customTabListAdditionalFields>AssignedUser</customTabListAdditionalFields>
+        <customTabListAdditionalFields>ChangeType</customTabListAdditionalFields>
+        <customTabListAdditionalFields>RiskLevel</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Impact</customTabListAdditionalFields>
         <searchResultsAdditionalFields>Subject</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>Status</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>Priority</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>AssignedUser</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>ChangeType</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>RiskLevel</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Impact</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>Private</sharingModel>
 </CustomObject>

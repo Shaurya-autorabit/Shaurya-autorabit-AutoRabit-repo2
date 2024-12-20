@@ -8,5 +8,8 @@
     <label>Data Manager</label>
     <navType>Standard</navType>
     <tabs>standard-AnalyticsDataManager</tabs>
+    <tabs>SaiAPI56Obj1__c</tabs>
+    <tabs>TestClone__c</tabs>
+    <tabs>EXTest__c</tabs>
     <uiType>Lightning</uiType>
 </CustomApplication>

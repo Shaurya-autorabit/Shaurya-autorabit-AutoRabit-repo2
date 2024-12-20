@@ -14,21 +14,28 @@
     <tabs>standard-Account</tabs>
     <tabs>standard-report</tabs>
     <tabs>standard-Dashboard</tabs>
-    <tabs>standard-home</tabs>
-    <tabs>standard-Incident</tabs>
-    <tabs>standard-Problem</tabs>
-    <tabs>standard-ChangeRequest</tabs>
+    <tabs>standard-Feed</tabs>
+    <tabs>standard-WaveHomeLightning</tabs>
+    <tabs>SaiAPI56Obj1__c</tabs>
+    <tabs>TestClone__c</tabs>
+    <tabs>EXTest__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>LightningService_UtilityBar</utilityBar>
     <workspaceConfig>
+        <mappings>
+            <tab>EXTest__c</tab>
+        </mappings>
+        <mappings>
+            <tab>SaiAPI56Obj1__c</tab>
+        </mappings>
+        <mappings>
+            <tab>TestClone__c</tab>
+        </mappings>
         <mappings>
             <tab>standard-Account</tab>
         </mappings>
         <mappings>
             <tab>standard-Case</tab>
-        </mappings>
-        <mappings>
-            <tab>standard-ChangeRequest</tab>
         </mappings>
         <mappings>
             <tab>standard-Contact</tab>
@@ -37,13 +44,10 @@
             <tab>standard-Dashboard</tab>
         </mappings>
         <mappings>
-            <tab>standard-Incident</tab>
+            <tab>standard-Feed</tab>
         </mappings>
         <mappings>
-            <tab>standard-Problem</tab>
-        </mappings>
-        <mappings>
-            <tab>standard-home</tab>
+            <tab>standard-WaveHomeLightning</tab>
         </mappings>
         <mappings>
             <tab>standard-report</tab>

@@ -469,13 +469,6 @@
         <trackTrending>false</trackTrending>
     </fields>
     <fields>
-        <fullName>SourceId</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Lookup</type>
-    </fields>
-    <fields>
         <fullName>Status</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>true</trackHistory>
@@ -514,6 +507,14 @@
         <trackHistory>true</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>testf__c</fullName>
+        <externalId>false</externalId>
+        <label>testf</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>AutoNumber</type>
     </fields>
     <listViews>
         <fullName>AllClosedCases</fullName>

@@ -6,7 +6,7 @@
     <enableApexCtrlImplicitWithSharingPref>false</enableApexCtrlImplicitWithSharingPref>
     <enableApexPropertyGetterPref>false</enableApexPropertyGetterPref>
     <enableAuraApexCtrlAuthUserAccessCheckPref>false</enableAuraApexCtrlAuthUserAccessCheckPref>
-    <enableAuraApexCtrlGuestUserAccessCheckPref>false</enableAuraApexCtrlGuestUserAccessCheckPref>
+    <enableAuraApexCtrlGuestUserAccessCheckPref>true</enableAuraApexCtrlGuestUserAccessCheckPref>
     <enableCompileOnDeploy>false</enableCompileOnDeploy>
     <enableDisableParallelApexTesting>false</enableDisableParallelApexTesting>
     <enableGaplessTestAutoNum>true</enableGaplessTestAutoNum>

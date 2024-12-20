@@ -1,0 +1,67 @@
+{
+  "appPageId" : "afb2de20-e113-4fb8-956a-5b07a7f300ab",
+  "componentName" : "community_layout:sldsFlexibleLayout",
+  "dataProviders" : [ ],
+  "id" : "41948b59-0892-451c-977f-7eeca09c2b99",
+  "label" : "Home",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "backgroundImageConfig" : "",
+        "backgroundImageOverlay" : "rgba(0,0,0,0)",
+        "sectionConfig" : "{\"UUID\":\"0c06ee24-879e-4392-b606-3cae69b39b11\",\"columns\":[{\"UUID\":\"518af1c5-a515-4372-a6dd-7298a379c439\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":null}]}"
+      },
+      "componentName" : "community_layout:section",
+      "id" : "0c06ee24-879e-4392-b606-3cae69b39b11",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "alignment" : "center",
+            "size" : "standard",
+            "stretch" : "standard",
+            "text" : "Account LIst",
+            "type" : "primary",
+            "url" : "https://ar53-developer-edition.gus.force.com/API53TEST/s/accountlist"
+          },
+          "componentName" : "dxp_base:button",
+          "id" : "6b262c19-d1d2-43af-9251-7397caa0a5b9",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "518af1c5-a515-4372-a6dd-7298a379c439",
+        "regionLabel" : "Column 1",
+        "regionName" : "col1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "scopedBrandingSetId" : null,
+      "type" : "component"
+    } ],
+    "id" : "352b3391-7417-4a3c-bf8a-051061cc6578",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "pageTitle" : "Home",
+        "recordId" : "{!recordId}"
+      },
+      "componentName" : "community_builder:seoAssistant",
+      "id" : "124775df-9867-4ccd-bb72-0021b16dc914",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "4d67ce4e-e37b-4840-ab99-c68f06539745",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "home"
+}

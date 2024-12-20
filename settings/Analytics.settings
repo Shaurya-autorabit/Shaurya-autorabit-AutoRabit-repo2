@@ -14,6 +14,7 @@
     <enableAmazonRedshiftOutputConnector>false</enableAmazonRedshiftOutputConnector>
     <enableAnalyticsSharingEnable>true</enableAnalyticsSharingEnable>
     <enableAutoCompleteCombo>true</enableAutoCompleteCombo>
+    <enableAutonomousExperience>true</enableAutonomousExperience>
     <enableAzureDLGen2OutputConnector>false</enableAzureDLGen2OutputConnector>
     <enableCreateLegacyDataflows>true</enableCreateLegacyDataflows>
     <enableDashboardComponentSnapshot>false</enableDashboardComponentSnapshot>
@@ -42,30 +43,32 @@
     <enableReportSubOrgEmailPref>false</enableReportSubOrgEmailPref>
     <enableRequestPrioritySchdl>false</enableRequestPrioritySchdl>
     <enableS1AnalyticsEclairEnable>true</enableS1AnalyticsEclairEnable>
-    <enableS3OutputConnector>false</enableS3OutputConnector>
+    <enableS3OutputConnector>true</enableS3OutputConnector>
     <enableSFXJoinedReportsEnable>false</enableSFXJoinedReportsEnable>
-    <enableSalesforceOutputConnector>false</enableSalesforceOutputConnector>
+    <enableSalesforceOutputConnector>true</enableSalesforceOutputConnector>
     <enableSecureImageSharing>false</enableSecureImageSharing>
-    <enableSnowflakeOutputConnector>false</enableSnowflakeOutputConnector>
+    <enableSnowflakeOutputConnector>true</enableSnowflakeOutputConnector>
     <enableSummaryFilterOrgPref>false</enableSummaryFilterOrgPref>
-    <enableTableauHyperOutputConnector>false</enableTableauHyperOutputConnector>
+    <enableTableauHyperOutputConnector>true</enableTableauHyperOutputConnector>
     <enableUseOldChartsLookAndFeel>false</enableUseOldChartsLookAndFeel>
     <enableWaveAssetsNewDateVersion>false</enableWaveAssetsNewDateVersion>
     <enableWaveIndexMVDim>true</enableWaveIndexMVDim>
     <enableWaveIndexMVDimV2>false</enableWaveIndexMVDimV2>
     <enableWaveRecordNavigation>false</enableWaveRecordNavigation>
-    <enableWaveReplication>false</enableWaveReplication>
+    <enableWaveReplication>true</enableWaveReplication>
     <enableWaveSharingInheritance>false</enableWaveSharingInheritance>
     <enableWaveSqlCFIndexing>false</enableWaveSqlCFIndexing>
     <enableWaveTrendedDatasetCleanup>false</enableWaveTrendedDatasetCleanup>
+    <etlOrchestrationPref>false</etlOrchestrationPref>
     <isDiscoveryOptimizationEnabled>false</isDiscoveryOptimizationEnabled>
     <isHighVolumePushbackEnabled>false</isHighVolumePushbackEnabled>
     <maxHoursAppInProgress>48</maxHoursAppInProgress>
     <queryCachingOptOut>false</queryCachingOptOut>
     <recipeDirectDataPref>true</recipeDirectDataPref>
     <recipeFiscalPref>false</recipeFiscalPref>
-    <recipePreCachingOptOut>false</recipePreCachingOptOut>
+    <recipePreCachingOptOut>true</recipePreCachingOptOut>
     <recipeStagedDataPref>false</recipeStagedDataPref>
     <replaceBlankMeasuresWithNulls>false</replaceBlankMeasuresWithNulls>
+    <sonicEnabled>true</sonicEnabled>
     <turnOnTimeZones>false</turnOnTimeZones>
 </AnalyticsSettings>

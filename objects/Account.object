@@ -227,7 +227,7 @@
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>true</enableFeeds>
     <enableHistory>false</enableHistory>
-    <externalSharingModel>ReadWrite</externalSharingModel>
+    <externalSharingModel>Private</externalSharingModel>
     <fields>
         <fullName>AccountNumber</fullName>
         <trackFeedHistory>false</trackFeedHistory>
@@ -266,6 +266,12 @@
     <fields>
         <fullName>BillingAddress</fullName>
         <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>ChannelProgramLevelName</fullName>
+    </fields>
+    <fields>
+        <fullName>ChannelProgramName</fullName>
     </fields>
     <fields>
         <fullName>CleanStatus</fullName>
@@ -321,6 +327,17 @@
         <type>Picklist</type>
     </fields>
     <fields>
+        <fullName>IsCustomerPortal</fullName>
+    </fields>
+    <fields>
+        <fullName>IsExcludedFromRealign</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>IsPartner</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
         <fullName>Jigsaw</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
@@ -350,11 +367,6 @@
         <trackFeedHistory>false</trackFeedHistory>
         <type>Number</type>
         <unique>false</unique>
-    </fields>
-    <fields>
-        <fullName>OperatingHoursId</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>Lookup</type>
     </fields>
     <fields>
         <fullName>OwnerId</fullName>
@@ -430,6 +442,13 @@
         </valueSet>
     </fields>
     <fields>
+        <fullName>Searchable__c</fullName>
+        <defaultValue>false</defaultValue>
+        <label>Searchable</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>ShippingAddress</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
@@ -495,6 +514,17 @@
     <fields>
         <fullName>YearStarted</fullName>
         <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>f__c</fullName>
+        <externalId>true</externalId>
+        <label>f</label>
+        <precision>18</precision>
+        <required>true</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Number</type>
+        <unique>true</unique>
     </fields>
     <listViews>
         <fullName>AllAccounts</fullName>

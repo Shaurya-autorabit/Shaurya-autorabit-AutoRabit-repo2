@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SearchOrgWideObjectConfig xmlns="http://soap.sforce.com/2006/04/metadata">
+    <masterLabel>AccountLabel</masterLabel>
+    <objectReference>Account</objectReference>
+    <searchOrgWideFieldConfig>
+        <fieldReference>SLASerialNumber__c</fieldReference>
+        <isSearchable>true</isSearchable>
+        <isSecure>true</isSecure>
+    </searchOrgWideFieldConfig>
+    <searchOrgWideFieldConfig>
+        <fieldReference>f__c</fieldReference>
+        <isSearchable>true</isSearchable>
+        <isSecure>false</isSecure>
+    </searchOrgWideFieldConfig>
+</SearchOrgWideObjectConfig>

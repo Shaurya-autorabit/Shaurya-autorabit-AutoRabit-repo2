@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SearchOrgWideObjectConfig xmlns="http://soap.sforce.com/2006/04/metadata">
+    <masterLabel>01IB0000000iNN2Label</masterLabel>
+    <objectReference>API55Obj__c</objectReference>
+    <searchOrgWideFieldConfig>
+        <fieldReference>F1__c</fieldReference>
+        <isSearchable>true</isSearchable>
+        <isSecure>true</isSecure>
+    </searchOrgWideFieldConfig>
+</SearchOrgWideObjectConfig>

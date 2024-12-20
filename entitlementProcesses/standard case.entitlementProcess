@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <EntitlementProcess xmlns="http://soap.sforce.com/2006/04/metadata">
     <SObjectType>Case</SObjectType>
-    <active>true</active>
+    <active>false</active>
     <description>Runs the standard SLA process for Case.</description>
     <entryStartDateField>Case.CreatedDate</entryStartDateField>
+    <exitCriteriaFilterItems>
+        <field>Case.testf__c</field>
+        <operation>contains</operation>
+        <value>0</value>
+    </exitCriteriaFilterItems>
     <exitCriteriaFilterItems>
         <field>Case.IsClosed</field>
         <operation>equals</operation>
@@ -18,6 +23,22 @@
                 <type>FieldUpdate</type>
             </actions>
             <timeLength>-60</timeLength>
+            <workflowTimeTriggerUnit>Minutes</workflowTimeTriggerUnit>
+        </timeTriggers>
+        <timeTriggers>
+            <actions>
+                <name>fu1</name>
+                <type>FieldUpdate</type>
+            </actions>
+            <timeLength>1</timeLength>
+            <workflowTimeTriggerUnit>Minutes</workflowTimeTriggerUnit>
+        </timeTriggers>
+        <timeTriggers>
+            <actions>
+                <name>fu2</name>
+                <type>FieldUpdate</type>
+            </actions>
+            <timeLength>2</timeLength>
             <workflowTimeTriggerUnit>Minutes</workflowTimeTriggerUnit>
         </timeTriggers>
         <useCriteriaStartTime>false</useCriteriaStartTime>
